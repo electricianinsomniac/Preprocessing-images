@@ -1,7 +1,7 @@
-# Preprocessing-images
+### Preprocessing-images
 Preprocessing images - Segmentation with MATLAB - MRI Images
 
-# Introducing
+## Background
 Brain MRI images preprocessing of segmentation. I used [Dataset](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection) about brain tumor MRI result images.
 
 ## Introduction
