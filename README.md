@@ -17,7 +17,7 @@ this is result after segmentation on matlab;
 ![image](https://user-images.githubusercontent.com/110273737/209093980-a445fe8a-22ce-405e-9614-e2395282c2d9.png)
 
 
-segmentation by changing to greyscale than streching image, and convert to biner 
+segmentation by changing to greyscale than streching image, and convert to biner with some binary value 
 
 ## Another images
 this is result to another images;
