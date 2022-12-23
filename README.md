@@ -16,6 +16,9 @@ this is result after segmentation on matlab;
 ![image](https://user-images.githubusercontent.com/110273737/209094298-2fa6b1ad-d1d5-43dd-9a60-80eaf063f3e9.png)
 ![image](https://user-images.githubusercontent.com/110273737/209093980-a445fe8a-22ce-405e-9614-e2395282c2d9.png)
 
+
+segmentation by changing to greyscale than streching image, and convert to biner 
+
 ## Another images
 this is result to another images;
 
