@@ -4,6 +4,9 @@ Preprocessing images - Segmentation with MATLAB - MRI Images
 ## Background
 Brain MRI images preprocessing of segmentation. I used [Dataset](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection) about brain tumor MRI result images.
 
+## Reference
+- https://www.kaggle.com/
+
 ## Introduction
 
 In the dataset obtained, namely brain MRI images, there are two images of brain tumor MRI results experienced by patients. The first data is an image in which there is a brain tumor and the second image in which there is no brain tumor. The amount of data in the dataset is 253 images with the number of images that have brain tumor disease as many as 155 images and the number of images that do not have brain tumor disease are 98 images. In this preposition process by converting the data into grayscale, stretching the image, and changing it to binary form to facilitate further processing. Of the various images tested that have tumors. Of the 10 image samples, clearer image results were obtained for image data in which there was a brain tumor disease, so that from the results of these images it can be clearly concluded that brain tumors can be identified through digital examination.
