@@ -14,6 +14,21 @@ Brain MRI images preprocessing of segmentation. I used [Dataset](https://www.kag
 In the dataset obtained, namely brain MRI images, there are two images of brain tumor MRI results experienced by patients. The first data is an image in which there is a brain tumor and the second image in which there is no brain tumor. The amount of data in the dataset is 253 images with the number of images that have brain tumor disease as many as 155 images and the number of images that do not have brain tumor disease are 98 images. In this preposition process by converting the data into grayscale, stretching the image, and changing it to binary form to facilitate further processing. Of the various images tested that have tumors. Of the 10 image samples, clearer image results were obtained for image data in which there was a brain tumor disease, so that from the results of these images it can be clearly concluded that brain tumors can be identified through digital examination.
 
 ## Program
+- Input picture for processing figure 
+```
+a=imread('Y3.pgm');
+b=imresize(a,[256,256]);
+c=a;
+figure (1), imshow(c); title('citra asli');
+```
+- Setup paramereter
+```
+I = imadjust(c,[0.3,0.6],[0.0,1.0]);
+%hist eq
+J = histeq(I);
+%Trans Negatif
+d = 255 - I;
+```
 - Show Multiple parameter(show streched figure, histograph equalizer, and convert to nagative) 
 ```
 figure
