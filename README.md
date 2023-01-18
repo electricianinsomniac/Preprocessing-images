@@ -13,6 +13,19 @@ Brain MRI images preprocessing of segmentation. I used [Dataset](https://www.kag
 
 In the dataset obtained, namely brain MRI images, there are two images of brain tumor MRI results experienced by patients. The first data is an image in which there is a brain tumor and the second image in which there is no brain tumor. The amount of data in the dataset is 253 images with the number of images that have brain tumor disease as many as 155 images and the number of images that do not have brain tumor disease are 98 images. In this preposition process by converting the data into grayscale, stretching the image, and changing it to binary form to facilitate further processing. Of the various images tested that have tumors. Of the 10 image samples, clearer image results were obtained for image data in which there was a brain tumor disease, so that from the results of these images it can be clearly concluded that brain tumors can be identified through digital examination.
 
+## Program
+'''
+display(['Contrast= ',num2str(z)])
+display(['Correlation= ',num2str(y)])
+display(['Energy= ',num2str(x)])
+display(['Homogeneity= ',num2str(w)])
+display(['mean= ',num2str(meanGL)])
+display(['variance= ',num2str(varianceGL)])
+display(['stdaardDeviation= ',num2str(sd)])
+display(['skewnees= ',num2str(skew)])
+display(['entropy= ' ,num2str(e)])
+'''
+
 ## Preprocessing stage 
 this is result after segmentation on [matlab](https://www.mathworks.com/products/matlab.html);
 
