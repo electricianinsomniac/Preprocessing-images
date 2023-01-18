@@ -1,5 +1,5 @@
 ### Preprocessing-images
-Preprocessing images - Segmentation with MATLAB - MRI Images
+Preprocessing images - Segmentation with [MATLAB](https://www.mathworks.com/products/matlab.html) - MRI Images
 
 ## Background
 Brain tumor is a disease that is very dangerous for humans. In general, the symptoms of a brain tumor can be seen by behavior such as fatigue, lack of concentration, headaches and vertigo. Therefore, an examination is needed, one of which is a digital examination. Digital examinations can use a CT scan, Magnetic Resonance Imaging (MRI), and Near infrared florescence.
