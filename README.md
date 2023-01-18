@@ -14,6 +14,23 @@ Brain MRI images preprocessing of segmentation. I used [Dataset](https://www.kag
 In the dataset obtained, namely brain MRI images, there are two images of brain tumor MRI results experienced by patients. The first data is an image in which there is a brain tumor and the second image in which there is no brain tumor. The amount of data in the dataset is 253 images with the number of images that have brain tumor disease as many as 155 images and the number of images that do not have brain tumor disease are 98 images. In this preposition process by converting the data into grayscale, stretching the image, and changing it to binary form to facilitate further processing. Of the various images tested that have tumors. Of the 10 image samples, clearer image results were obtained for image data in which there was a brain tumor disease, so that from the results of these images it can be clearly concluded that brain tumors can be identified through digital examination.
 
 ## Program
+- Extraction fiture
+```
+[pixelCounts, GLs]=imhist(c);
+numberOfPixels = sum(pixelCounts)
+meanGL=sum(GLs .* pixelCounts)/numberOfPixels;
+varianceGL = sum((GLs-meanGL) .^ 2 .* pixelCounts)/numberOfPixels;
+sd = sqrt(varianceGL);
+skew = sum((GLs - meanGL).^ 3 .* pixelCounts)/((numberOfPixels -1) * sd^3);
+e=entropy(c);6.9684;
+GLCM2 = graycomatrix(c);
+F=graycoprops(GLCM2, 'all');
+z=F.Contrast;
+y=F.Correlation;
+x=F.Energy;
+w=F.Homogeneity;
+```
+- How to display all parameter and value
 ```
 display(['Contrast= ',num2str(z)])
 display(['Correlation= ',num2str(y)])
