@@ -1,4 +1,4 @@
-### Preprocessing-images
+## Preprocessing-images
 Preprocessing images - Segmentation with [MATLAB](https://www.mathworks.com/products/matlab.html) - MRI Images
 
 ## Background
