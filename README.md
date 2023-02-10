@@ -16,6 +16,25 @@ Image segmentation is the process of partitioning an image into multiple segment
 
 In the dataset obtained, namely brain MRI images, there are two images of brain tumor MRI results experienced by patients. The first data is an image in which there is a brain tumor and the second image in which there is no brain tumor. The amount of data in the dataset is 253 images with the number of images that have brain tumor disease as many as 155 images and the number of images that do not have brain tumor disease are 98 images. In this preposition process by converting the data into grayscale, stretching the image, and changing it to binary form to facilitate further processing. Of the various images tested that have tumors. Of the 10 image samples, clearer image results were obtained for image data in which there was a brain tumor disease, so that from the results of these images it can be clearly concluded that brain tumors can be identified through digital examination.
 
+## Process
+- Resizing: changing the size of an image to make it larger or smaller.
+
+- Denoising: removing noise from the image to make it clearer.
+
+- Normalization: scaling the image values to a standard range (such as [0,1]) to make the data easier to work with.
+
+- Grayscaling: converting a colored image to black and white.
+
+- Histogram equalization: adjusting the contrast of an image by spreading out the intensity values.
+
+- Crop: removing the unnecessary parts of an image to only keep the relevant information.
+
+- Rotation: rotating the image to a certain degree.
+
+- Flipping: reversing the image either horizontally or vertically.
+
+- Sharpening: increasing the edge contrast of an image to make it clearer.
+
 ## Program
 - Input picture for processing figure 
 ```
